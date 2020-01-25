@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ashishcodes4/saga/columbus/static/css/main.d1b05096.chunk.css",
+    "main.js": "/ashishcodes4/saga/columbus/static/js/main.76b4949f.chunk.js",
+    "main.js.map": "/ashishcodes4/saga/columbus/static/js/main.76b4949f.chunk.js.map",
+    "runtime-main.js": "/ashishcodes4/saga/columbus/static/js/runtime-main.e62b7eb5.js",
+    "runtime-main.js.map": "/ashishcodes4/saga/columbus/static/js/runtime-main.e62b7eb5.js.map",
+    "static/js/2.340c6d59.chunk.js": "/ashishcodes4/saga/columbus/static/js/2.340c6d59.chunk.js",
+    "static/js/2.340c6d59.chunk.js.map": "/ashishcodes4/saga/columbus/static/js/2.340c6d59.chunk.js.map",
+    "index.html": "/ashishcodes4/saga/columbus/index.html",
+    "precache-manifest.e7cdb0a149b1da71703d95bb3d49d663.js": "/ashishcodes4/saga/columbus/precache-manifest.e7cdb0a149b1da71703d95bb3d49d663.js",
+    "service-worker.js": "/ashishcodes4/saga/columbus/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/ashishcodes4/saga/columbus/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.340c6d59.chunk.js.LICENSE": "/ashishcodes4/saga/columbus/static/js/2.340c6d59.chunk.js.LICENSE",
+    "static/media/logo.svg": "/ashishcodes4/saga/columbus/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e62b7eb5.js",
+    "static/js/2.340c6d59.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.76b4949f.chunk.js"
+  ]
+}
