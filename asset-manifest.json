@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/ashishcodes4/saga/columbus/static/css/main.d1b05096.chunk.css",
-    "main.js": "/ashishcodes4/saga/columbus/static/js/main.76b4949f.chunk.js",
-    "main.js.map": "/ashishcodes4/saga/columbus/static/js/main.76b4949f.chunk.js.map",
-    "runtime-main.js": "/ashishcodes4/saga/columbus/static/js/runtime-main.e62b7eb5.js",
-    "runtime-main.js.map": "/ashishcodes4/saga/columbus/static/js/runtime-main.e62b7eb5.js.map",
-    "static/js/2.340c6d59.chunk.js": "/ashishcodes4/saga/columbus/static/js/2.340c6d59.chunk.js",
-    "static/js/2.340c6d59.chunk.js.map": "/ashishcodes4/saga/columbus/static/js/2.340c6d59.chunk.js.map",
-    "index.html": "/ashishcodes4/saga/columbus/index.html",
-    "precache-manifest.e7cdb0a149b1da71703d95bb3d49d663.js": "/ashishcodes4/saga/columbus/precache-manifest.e7cdb0a149b1da71703d95bb3d49d663.js",
-    "service-worker.js": "/ashishcodes4/saga/columbus/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/ashishcodes4/saga/columbus/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.340c6d59.chunk.js.LICENSE": "/ashishcodes4/saga/columbus/static/js/2.340c6d59.chunk.js.LICENSE",
-    "static/media/logo.svg": "/ashishcodes4/saga/columbus/static/media/logo.5d5d9eef.svg"
+    "main.css": "/saga/static/css/main.d1b05096.chunk.css",
+    "main.js": "/saga/static/js/main.93ab3fbc.chunk.js",
+    "main.js.map": "/saga/static/js/main.93ab3fbc.chunk.js.map",
+    "runtime-main.js": "/saga/static/js/runtime-main.8a19ec05.js",
+    "runtime-main.js.map": "/saga/static/js/runtime-main.8a19ec05.js.map",
+    "static/js/2.340c6d59.chunk.js": "/saga/static/js/2.340c6d59.chunk.js",
+    "static/js/2.340c6d59.chunk.js.map": "/saga/static/js/2.340c6d59.chunk.js.map",
+    "index.html": "/saga/index.html",
+    "precache-manifest.c4e0ac45e4e328b773c319760b7ea346.js": "/saga/precache-manifest.c4e0ac45e4e328b773c319760b7ea346.js",
+    "service-worker.js": "/saga/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/saga/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.340c6d59.chunk.js.LICENSE": "/saga/static/js/2.340c6d59.chunk.js.LICENSE",
+    "static/media/logo.svg": "/saga/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e62b7eb5.js",
+    "static/js/runtime-main.8a19ec05.js",
     "static/js/2.340c6d59.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.76b4949f.chunk.js"
+    "static/js/main.93ab3fbc.chunk.js"
   ]
 }
