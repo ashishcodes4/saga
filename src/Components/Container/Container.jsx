@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Pokegame from "../Pokegame/Pokegame";
 
 export default class Container extends Component {
   constructor(props) {
@@ -17,23 +18,36 @@ export default class Container extends Component {
     }));
   };
 
+  reset = () => {
+    this.setState({
+      current: ""
+    });
+  };
+
   render() {
-    const selection = this.state.current === "" ? false : true;
+    const selected = this.state.current === "" ? false : true;
+    let curentSelection =
+      this.state.current === "Pokedex" ? <Pokegame /> : null;
     return (
       <div>
-        <h2>Select form options below</h2>
+        <h2>Collection of extremely boring, ugly and meaningless games</h2>
         <p>Current Selection: {this.state.current}</p>
-        {this.props.options.map((op, index) => {
-          return (
-            <div
-              onClick={() => this.selectOption(op)}
-              data-type={op}
-              key={index}
-            >
-              {op}
-            </div>
-          );
-        })}
+        <div className="reset">
+          <button onClick={this.reset}>Reset</button>
+        </div>
+        {!selected
+          ? this.props.options.map((op, index) => {
+              return (
+                <div
+                  onClick={() => this.selectOption(op)}
+                  data-type={op}
+                  key={index}
+                >
+                  {op}
+                </div>
+              );
+            })
+          : curentSelection}
       </div>
     );
   }
