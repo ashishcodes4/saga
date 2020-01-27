@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Pokegame from "../Pokegame/Pokegame";
+import RollDice from "../Dice/RollDice";
 
 export default class Container extends Component {
   constructor(props) {
@@ -9,7 +10,7 @@ export default class Container extends Component {
     };
   }
   static defaultProps = {
-    options: ["Pokedex", "Hangman", "LightOut"]
+    options: ["Pokedex", "Dice", "Hangman", "LightOut"]
   };
 
   selectOption = type => {
@@ -27,7 +28,11 @@ export default class Container extends Component {
   render() {
     const selected = this.state.current === "" ? false : true;
     let curentSelection =
-      this.state.current === "Pokedex" ? <Pokegame /> : null;
+      this.state.current === "Pokedex" ? (
+        <Pokegame />
+      ) : this.state.current === "Dice" ? (
+        <RollDice />
+      ) : null;
     return (
       <div>
         <h2>Collection of extremely boring, ugly and meaningless games</h2>
